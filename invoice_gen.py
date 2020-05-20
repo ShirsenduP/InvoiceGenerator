@@ -8,11 +8,11 @@ from tabulate import tabulate
 CURRENT_MONTH = "May"  # TODO: Convert into command line script where month is argument
 
 TEMPLATES = {
-    "payment": "c:/Users/spodd/Google Drive/Students/EVT Timesheets/template_payment.txt",
-    "nopayment": "c:/Users/spodd/Google Drive/tudents/EVT Timesheets/template_nopayment.txt",
+    "payment": "/path/to/template/email/with/payment/info",
+    "nopayment": "/path/to/template/email/without/payment/info",
 }
 
-RECORDS = "c:/Users/spodd/Onedrive - University College London/Administration.xlsx"
+RECORDS = "/path/to/ExcelFile"
 LESSON_SHEET = "ST_Detailed"
 LESSON_INVOICE_HEADERS = {
     "Student": "Student",
